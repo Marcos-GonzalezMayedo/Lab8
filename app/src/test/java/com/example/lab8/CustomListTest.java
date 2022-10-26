@@ -2,6 +2,7 @@ package com.example.lab8;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.fail;
 
 
 //import org.junit.Before;
@@ -31,7 +32,7 @@ public class CustomListTest {
      */
     @Test
     public void hasCityTest() {
-
+        fail();
     }
 
 }
