@@ -48,6 +48,8 @@ public class CustomListTest {
         City sampleCity = new City("Estevan", "SK");
         list.addCity(sampleCity);
 
+        list.deleteCity(sampleCity);
+
         assertEquals(list.getCount(), 0);
 
     }
