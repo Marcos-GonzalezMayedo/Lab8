@@ -62,7 +62,6 @@ public class CustomListTest {
         list = MockCityList();
         City sampleCity = new City("Estevan", "SK");
         list.addCity(sampleCity);
-
-        assertTrue(list.getCount(), 0);
+        assertEquals(list.getCount(), 1);
     }
 }
